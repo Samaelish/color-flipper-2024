@@ -41,6 +41,7 @@ body {
   font-size: 1rem;
   cursor: pointer;
   border-radius: 0.5rem;
+  transition: background-color 0.25s linear;
 }
 
 #new-color-button:hover {
