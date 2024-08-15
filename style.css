@@ -16,14 +16,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: clamp(35%, 3vw + 30%, 30%);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 100px auto;
   background-color: white;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   padding: 4rem;
   border-radius: 0.5rem;
-  margin: 0 auto;
+  margin: 0 1rem;
 }
 
 #color-display h1 {
@@ -36,7 +35,7 @@ body {
   background-color: black;
   color: white;
   font-weight: 900;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border: none;
   font-size: 1rem;
   cursor: pointer;
@@ -46,4 +45,12 @@ body {
 
 #new-color-button:hover {
   background-color: darkslategray;
+}
+@media only screen and (max-width: 768px) {
+  body {
+  font-size: 0.75rem;
+  }
+  #new-color-button {
+    padding: ;
+  }
 }
