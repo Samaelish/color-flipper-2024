@@ -46,11 +46,3 @@ body {
 #new-color-button:hover {
   background-color: darkslategray;
 }
-@media only screen and (max-width: 768px) {
-  body {
-  font-size: 0.75rem;
-  }
-  #new-color-button {
-    padding: ;
-  }
-}
