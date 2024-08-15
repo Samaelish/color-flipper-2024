@@ -1,22 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   transition: background-color 0.5s;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section#colour-display {
+#color-display {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 100px auto;
-  width: 50%;
   background-color: white;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   padding: 4rem;
   border-radius: 0.5rem;
+  margin: 0 auto;
 }
 
-section#colour-display h1 {
+#color-display h1 {
   font-weight: 900;
+  margin-bottom: 1em;
 }
 
-section#colour-display #new-colour-button {
+#new-color-button {
   width: 100%;
   background-color: black;
   color: white;
@@ -25,8 +35,9 @@ section#colour-display #new-colour-button {
   border: none;
   font-size: 1rem;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
-section#colour-display #new-colour-button:hover {
-  background-color: darkgray;
+#new-color-button:hover {
+  background-color: darkslategray;
 }
