@@ -1,6 +1,6 @@
 const newcolorBtnElement = document.getElementById('new-color-button')
 
-const currentcolorElement = document.getElementById('current-color')
+const currentColorElement = document.getElementById('current-color')
 
 
 const hexValues = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
@@ -27,5 +27,5 @@ newcolorBtnElement.addEventListener('click', function () {
 
   document.body.style.setProperty('background-color', randomHexString)
 
-  currentcolorElement.textContent = randomHexString
+  currentColorElement.textContent = randomHexString
 })
